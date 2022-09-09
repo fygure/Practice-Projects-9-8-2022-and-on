@@ -1,3 +1,5 @@
-//This is my first practice project with git and github as source control
+//FIRST FEATURE HERE!!!!
 
-console.log("Hello");
+
+
+console.log(`cool pool with ${3} ball`);
