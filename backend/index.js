@@ -27,6 +27,6 @@ MongoClient.connect(
         await RestaurantsDAO.injectDB(client) //how we get inital reference to restaurant's collection in database
         await ReviewsDAO.injectDB(client)
         app.listen(port, () => {
-            console.log(`listening on port ${port}`)
+            console.log(`yo, listening on port ${port}`)
         })
     })
